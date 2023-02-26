@@ -1,0 +1,73 @@
+.navbar{
+margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar #logo{
+    height: 50px;
+}
+
+.navbar input{
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+}
+.navbar input:hover{
+    border: 2px solid blueviolet;
+
+}
+.navbar button{
+    border-radius: 10px;
+    height: 40px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    border:  1px solid gainsboro;
+    color: blue;
+    width: 70px;
+   
+    color: greyviolet;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+
+    background-color: rgb(221, 222, 240);
+}
+.categories a{
+    background-color: lightgray;
+    color: black;
+    margin-left: 5px;
+    border-radius: 10px;
+   text-decoration: none;
+   padding: 6px;
+   font-size: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.categories a:hover{
+
+    color: white;
+    background-color: black;
+}
+.videos{
+
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.videos img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    border:  1px solid gainsboro;
+}
+.videos h3,p{
+    margin: 0px;
+}
+.content{
+    margin-left: 10px;
+}
